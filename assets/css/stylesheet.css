@@ -421,6 +421,11 @@ time {
   }
 }
 
+.social-icons{
+  align-items: center;
+  padding-right: 4%;
+}
+
 .contabale{
   margin-left: 100px;
   padding-left: 50px;
@@ -431,15 +436,23 @@ time {
 
 .container-socialcont{
   margin-left: 100px;
+  align-items:center;
 }
 
 #contact {
   font-size: 26px;
   background: #292727;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   height: auto;
+  /* display: flex; */
 }
+
+/* @media (max-width: 2000px) {
+  #contact{
+    flex-direction: column;
+    /* align-items: center; */
+  } */
 
 .nameslist{
   color: #fff;
