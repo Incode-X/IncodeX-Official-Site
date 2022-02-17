@@ -1,5 +1,5 @@
 function handleTickInit(tick) {
-  var nextYear = "2022-02-04";
+  var nextYear = "2022-02-26";
 
   Tick.count.down(nextYear).onupdate = function (value) {
     tick.value = value;
